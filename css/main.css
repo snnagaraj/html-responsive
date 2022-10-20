@@ -5,9 +5,13 @@
 }
 .container{
     width: 90%;
+    margin: auto;
 }
 .header{
-    background-color: aquamarine;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    position: fixed;
 }
 .header-flex{
     display: flex;
@@ -15,39 +19,135 @@
 }
 .left a{
     text-decoration: none;
+    color: #7a6960;
+    font-family: "Raleway", sans-serif;
+  
 }
 .left h1{
-    color: aliceblue;
+    /* color: aliceblue; */
+    font-size: 30px;
     padding-top: 15px;
     padding-left: 20px;
 }
 .right{
   display: flex;
-  padding-left: 500px;
+  padding-left: 400px;
 }
 .right a{
     text-decoration: none;
+    color: #7a6960;
 }
 .right li{
     list-style-type: none;
     padding-left: 20px;
     padding-top: 20px;
 }
+.head-button button{
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 13px;
+    border-radius: 20px;
+    background-color:  #eb5d1e;
+    color: white;
+    border: none;
+}
 
 
+/* banner */
 
-
+.banner{
+    background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+}
 .banner-flex{
     display: flex;
+    padding-top: 10px;
+   
 }
 .banner-left{
-    width: 30%;
+    width: 50%;
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.banner-left h1{
+    font-size: 48px;
+    color: #4e4039;
+    font-family: "Raleway", sans-serif;
+}
+.banner-left p{
+    font-size: 25px;
+    color: #4e4039;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.banner-left button{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #eb5d1e;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
 }
 .banner-right{
-    width: 60%;
+    width: 50%;
 }
 .banner-right img{
-    width: 600px;
+    width: 500px;
     height: 400px;
     margin-left: 100px;
+    margin-top: 50px;
 }
+
+
+/* about */
+
+.about-flex{
+    display: flex;
+}
+.about-left{
+    width: 50%;
+    margin-left: 35px;
+}
+.about-left img{
+   width: 500px;
+   height: 400px;
+   /* margin-left:120px; */
+}
+.about-right{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.about-right h1{
+    font-size: 34px;
+    color: #4e4039;
+    font-family: "Raleway", sans-serif;
+}
+.about-right p{
+    font-size: 18px;
+    padding-top: 10px;
+    color: #5a6570;
+}
+.about-center{
+    display: flex;
+}
+.box{
+    padding-top: 20px;
+    /* padding-right: 10px; */
+}
+.box i{
+    font-size: 35px;
+    color: #eb5d1e;
+}
+.box h2{
+   font-size: 25px;
+   padding-top: 20px;
+   color: #7a6960;
+}
+.box p{
+    font-size: 18px;
+    color: #5a6570;
+}
+
