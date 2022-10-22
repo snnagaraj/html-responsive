@@ -31,7 +31,6 @@
 }
 .right{
   display: flex;
-  padding-left: 400px;
 }
 .right a{
     text-decoration: none;
@@ -39,35 +38,30 @@
 }
 .right li{
     list-style-type: none;
-    padding-left: 20px;
-    padding-top: 20px;
 }
 .head-button button{
-    width: 120px;
+    width: 50px;
     height: 30px;
-    margin-left: 20px;
-    margin-top: 13px;
     border-radius: 20px;
     background-color:  #eb5d1e;
     color: white;
     border: none;
-}
+}*/
 
 
 /* banner */
-/* 
+ 
 .banner{
     background: #fef8f5;
     border-bottom: 2px solid #fcebe3;
 }
 .banner-flex{
-    display: flex;
     padding-top: 10px;
    
 }
 .banner-left{
-    width: 50%;
-    padding-top: 100px;
+    width: 90%;
+    padding-top: 10px;
     margin-left: 20px;
 }
 .banner-left h1{
@@ -82,7 +76,7 @@
     font-family: "Raleway", sans-serif;
 }
 .banner-left button{
-    width: 120px;
+    width: 100px;
     height: 35px;
     border-radius: 20px;
     background-color: #eb5d1e;
@@ -91,33 +85,33 @@
     margin-top: 20px;
 }
 .banner-right{
-    width: 50%;
+    width: 90%;
 }
 .banner-right img{
-    width: 500px;
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 50px;
-} */
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+} 
 
 
 /* about */
 
-/* .about-flex{
-    display: flex;
+.about-flex{
+    padding:1px;
 }
 .about-left{
-    width: 50%;
-    margin-left: 35px;
+    width: 95%;
+    margin-left: 5px;
 }
 .about-left img{
-   width: 500px;
-   height: 400px;
+   width: 300px;
+   height: 200px;
 }
 .about-right{
-    width: 50%;
-    padding-left: 40px;
-    padding-top: 40px;
+    width: 95%;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .about-right h1{
     font-size: 34px;
@@ -130,7 +124,7 @@
     color: #5a6570;
 }
 .about-center{
-    display: flex;
+    padding:1px;
 }
 .box{
     padding-top: 20px;
@@ -147,7 +141,7 @@
 .box p{
     font-size: 18px;
     color: #5a6570;
-} */ 
+} 
 
 
 /* services */
